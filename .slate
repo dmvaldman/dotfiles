@@ -1,0 +1,21 @@
+config defaultToCurrentScreen true
+config nudgePercentOf screenSize
+config resizePercentOf screenSize
+config secondsBetweenRepeat 0.1
+config checkDefaultsOnLoad true
+config focusCheckWidthMax 3000
+
+# Push Bindings
+bind o:alt 			corner top-left 		resize:screenSizeX;screenSizeY
+bind 0:alt 			corner top-left 		resize:screenSizeX;screenSizeY
+bind right:alt  	corner top-right 		resize:screenSizeX/2;screenSizeY
+bind left:alt  		corner top-left 		resize:screenSizeX/2;screenSizeY
+bind up:alt  		corner top-left 		resize:screenSizeX;screenSizeY/2
+bind down:alt  		corner bottom-left 		resize:screenSizeX;screenSizeY/2
+
+bind left:ctrl;alt throw 0 resize
+bind right:ctrl;alt throw 1 resize
+
+# Focus Bindings
+bind right:ctrl    focus right
+bind left:ctrl     focus left
