@@ -1,0 +1,11 @@
+[user]
+	name = David Valdman
+	email = dmvaldman@gmail.com
+[core]
+	excludesfile = /Users/dmvaldman/.gitignore_global
+	editor = nano
+	pager = diff-highlight | diff-so-fancy | less --tabs=1,5 -R
+[alias]
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+[push]
+	default = matching
